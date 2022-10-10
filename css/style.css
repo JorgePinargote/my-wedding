@@ -1,0 +1,393 @@
+:root {
+  font-family: sans-serif;
+  --image-size-container: 600px;
+  --image-size-container-mobile: 400px;
+  --image-size: 400px;
+  --image-size-mobile: 225px;
+}
+
+::-moz-selection { /* Code for Firefox */
+    color: white;
+    background: #f08e80;
+}
+  
+::selection {
+    color: white;
+    background: #f08e80;
+}
+
+html  {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+  
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+.home {
+    height: 100vh;
+    background-color: #e0ece5;
+    overflow: hidden;
+}
+
+.movedBackground {
+    height: calc(100% - 55px);
+    top: 0%;
+    position: absolute;
+    overflow: hidden;
+    margin-top: 55px;
+    z-index: 90;
+}
+
+.wed-container{
+    margin-top: -65px;
+    width: 100%;
+    height: var(--image-size-container);
+    background-image: url(../images/pexels-secret-garden.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #e0ece5;
+}
+
+.wed-image{
+  width: var(--image-size);
+  height: var(--image-size);
+  background-image: url(../images/miramera-edited.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: auto auto;
+  position: relative;
+  top: 13%;
+  z-index: 1000;
+}
+
+.guest-list-background{
+    background-image: url(../images/pexels-secret-garden.png);
+    background-color: rgb(253,240,230, 0.8);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.wed-image{
+  border-radius: 30% 70% 70% 30%/30% 30% 70% 70%;
+  box-shadow: 15px 15px 50px rgba(0,0,0,0.2);
+  animation: morphing 45s infinite;
+  overflow: hidden;
+}
+
+@-moz-keyframes morphing {
+    0% {
+      border-radius: 30% 70% 70% 30%/30% 30% 70% 70%;
+      box-shadow: 15px 15px 50px rgba(0,0,0,0.2);
+    }
+    25% {
+      border-radius: 58% 42% 75% 25%/76% 46% 54% 24%;
+    }
+    50% {
+      border-radius: 50% 50% 33% 67%/55% 27% 73% 45%;
+      box-shadow: -10px -5px 50px rgba(0,0,0,0.2);
+    }
+    75% {
+      border-radius: 33% 67% 58% 42%/63% 68% 32% 37%;
+    }
+  }
+  @-webkit-keyframes morphing {
+    0% {
+      border-radius: 30% 70% 70% 30%/30% 30% 70% 70%;
+      box-shadow: 15px 15px 50px rgba(0,0,0,0.2);
+    }
+    25% {
+      border-radius: 58% 42% 75% 25%/76% 46% 54% 24%;
+    }
+    50% {
+      border-radius: 50% 50% 33% 67%/55% 27% 73% 45%;
+      box-shadow: -10px -5px 50px rgba(0,0,0,0.2);
+    }
+    75% {
+      border-radius: 33% 67% 58% 42%/63% 68% 32% 37%;
+    }
+  }
+  @-o-keyframes morphing {
+    0% {
+      border-radius: 30% 70% 70% 30%/30% 30% 70% 70%;
+      box-shadow: 15px 15px 50px rgba(0,0,0,0.2);
+    }
+    25% {
+      border-radius: 58% 42% 75% 25%/76% 46% 54% 24%;
+    }
+    50% {
+      border-radius: 50% 50% 33% 67%/55% 27% 73% 45%;
+      box-shadow: -10px -5px 50px rgba(0,0,0,0.2);
+    }
+    75% {
+      border-radius: 33% 67% 58% 42%/63% 68% 32% 37%;
+    }
+  }
+  @keyframes morphing {
+    0% {
+      border-radius: 30% 70% 70% 30%/30% 30% 70% 70%;
+      box-shadow: 15px 15px 50px rgba(0,0,0,0.2);
+    }
+    25% {
+      border-radius: 58% 42% 75% 25%/76% 46% 54% 24%;
+    }
+    50% {
+      border-radius: 50% 50% 33% 67%/55% 27% 73% 45%;
+      box-shadow: -10px -5px 50px rgba(0,0,0,0.2);
+    }
+    75% {
+      border-radius: 33% 67% 58% 42%/63% 68% 32% 37%;
+    }
+  }
+  
+
+
+.wrapper {
+    background-color:  #f08e80;
+    border-radius: 5px;
+    padding: 5px;
+}
+.wrapper .menu {
+    padding-right: 2rem;
+}
+.menu-item {
+    font-size: 0.9em;
+    font-family: sans-serif;
+}
+
+.navbar {
+    z-index: 1000;
+}
+
+.guests-msg {
+    background-color: white;
+} 
+
+.titles h1, h4 {
+   font-family: beautyregular;
+   color: #f08e80;
+   font-size: 2em; 
+}
+.titles h1{
+   text-align: center;
+   font-size: 8em;
+   font-weight: 500;
+   font-style: normal;
+   letter-spacing: 0em;
+}
+
+.guests-msg{
+    padding: 5%;
+}
+
+.guests-msg p{
+    text-align: center;
+}
+
+.guests-msg h1 {
+    display: block;
+    width: 60%;
+    margin: 25px auto;
+    text-align: center;
+    font-family: womenregular;
+    font-size: 2.5em;
+    color: #f08e80;
+}
+
+.marry {
+    margin-top: 15px;
+    width: 48%;
+    text-align: right;
+}
+
+.date {
+    width: 69%;
+    text-align: right;
+}
+
+.names {
+    margin-top: -25px;
+}
+
+.place {
+    background-color: #fdf0e6;
+}
+
+.map{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    z-index: 1;
+}
+
+.map iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+.whenwhere{
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.place h4, .place h5 {
+    font-family: womenRegular;
+}
+
+.place h5 {
+    color: #f08e80;
+}
+
+.when {
+    margin-bottom: 45px;
+}
+
+.rowmenu{
+    z-index: 1002;
+}
+
+.joinus .guestopt1 a {
+    border-radius: 3px;
+    margin-top: 1px;
+    color: #f08e80;
+    background-color: #fdf0e6;
+}
+.joinus .guestopt1 a:hover{
+    color: rgb(169, 169, 169);
+}
+
+.where a, .joinus a {
+    background-color: #f08e80;
+    padding: 8px;
+    border-radius: 5px;
+    display: block;
+    color: #fdf0e6;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.joinus a {
+    padding: 8px;
+    padding-left: 15px;
+    font-size: 0.75em;
+}
+
+.where a:hover{
+    background-color: #d5796b;
+}
+
+.map-container {
+    padding: 0px;
+}
+
+#else_message {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.joinus {
+    padding: 5%;
+}
+.joinus h1 {
+    font-size: 3em;
+    font-family: womenRegular;
+    text-align: center;
+    color: #f08e80;
+}
+
+.footer {
+    padding: 3%;
+    background-color: #f08e80;
+}
+
+.footer p {
+    font-size: 2em;
+    font-family: womenRegular;
+    text-align: center;
+    color: white;
+}
+
+.marginbottom55 {
+    margin-bottom: 55px;
+}
+
+@media only screen and (max-width: 768px) {
+    .wed-image{
+        top: 19%;
+        width: var(--image-size-mobile);
+        height: var(--image-size-mobile);
+    }
+    .wed-container{
+        margin-top: -135px;
+        height: var(--image-size-container-mobile);
+    }
+    .marry {
+        margin-top: 0px;
+        width: 80%;
+    }
+    .date{
+        width: 79%;
+    }
+    .names {
+        margin-top: -5px;
+    }
+    .names h1 {
+        font-size: 6em;
+    }
+    .date h4, .marry h4 {
+        font-size: 1.7em;
+    }
+    .x4, .x6, .x8 {
+        display: none;
+    } 
+    .header .navbar #nav:checked ~ .wrapper .menu {
+        margin-top: 250px;
+    }
+    .guests-msg h1 {
+        width: 90%;
+        font-size: 1.5em;
+    }
+    .guests-msg p {
+        font-size: 0.7em;
+    }
+    .place, .map-container {
+        padding: 0px;
+    }
+    .map {
+        padding-bottom: 100%;
+    }
+    .colwhenwhere {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .place h4 {
+        font-size: 1.5em;
+    }
+    #else_message {
+        margin-top: 25px;
+    }
+    .joinus h1 {
+        font-size: 1.5em;
+    }
+    .marginbottom55 {
+        margin-bottom: 30px;
+    }
+    .footer p {
+        font-size: 1.2em;
+    }
+}
