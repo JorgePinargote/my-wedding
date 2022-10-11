@@ -157,7 +157,7 @@
        admision.innerHTML = `Admisión: ${guest.admision || ""}.`;
 
        let dcode = document.getElementById("dress_code");
-       dcode.innerHTML = 'El código de vestimenta es semiformal, pero cómodo, alistate para comer todo lo que puedas.';
+       dcode.innerHTML = 'El código de vestimenta es semiformal, pero cómodo, alístate para comer todo lo que puedas.';
     }else{
         let emessage = document.getElementById("else_message");
         emessage.innerHTML = `No olvides nunca que la fuerza más poderosa en la tierra es el amor.`;
