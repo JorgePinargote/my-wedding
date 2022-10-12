@@ -1,75 +1,79 @@
 (function () {
     let guests = {
 		"normaquimi": {
-			"nombre": "Sra. Norma Quimi",
+			"nombre": "Sra. Norma Quimí",
 			"admision": "1 persona"
 		},
 		"amadorodriguez": {
-			"nombre": "Sr. Amado Rodriguez",
+			"nombre": "Sr. Amado Rodríguez",
 			"admision": "1 persona"
 		},
 		"henryquimi": {
-			"nombre": "Dr. Henry Quimi y sra. Lidia Aguilera",
+			"nombre": "Dr. Henry Quimí y Sra. Lidia Aguilera",
 			"admision": "2 personas"
 		},
 		"lidiasalcedo": {
-			"nombre": "Lidia Salcedo y Kevin Mora",
+			"nombre": "Srta. Lidia Salcedo y Sr. Kevin Mora",
 			"admision": "2 personas"
 		},
 		"monicaquimi": {
-			"nombre": "Sra. Monica Quimi y Sr. Jonathan Arce",
+			"nombre": "Sra. Monica Quimí y Sr. Jonathan Arce",
 			"admision": "2 personas"
 		},
 		"michaelquimi": {
-			"nombre": "Sr. Michael Quimi y esposa",
+			"nombre": "Sr. Michael Quimí y esposa",
 			"admision": "3 personas"
 		},
 		"rolandoquimi": {
-			"nombre": "Sr. Rolando Quimi y esposa",
+			"nombre": "Sr. Rolando Quimí y esposa",
 			"admision": "2 personas"
 		},
 		"liztabara": {
-			"nombre": "Sra. Elizabeth Tabara y esposo",
+			"nombre": "Sra. Elizabeth Tábara y esposo",
 			"admision": "2 personas"
 		},
 		"roggerquimi": {
-			"nombre": "Sr. Rogger Quimi y sra. Alisson Navarrete",
+			"nombre": "Sr. Rogger Quimí y Sra. Allison Navarrete",
 			"admision": "2 personas"
 		},
 		"keykoquimi": {
-			"nombre": "Keyko Quimi",
+			"nombre": "Srta. Keyko Quimí",
 			"admision": "1 persona"
 		},
 		"sandraquimi": {
-			"nombre": "Sra. Sandra Quimi",
+			"nombre": "Sra. Sandra Quimí",
 			"admision": "1 persona"
 		},
 		"luisfernandez": {
-			"nombre": "Luis Fernandez y Andrés Fernandez",
-			"admision": "2 personas"
+			"nombre": "Sr. Luis Fernández",
+			"admision": "1 persona"
+		},
+		"andresfernandez": {
+			"nombre": "Sr. Andrés Fernández",
+			"admision": "1 persona"
 		},
 		"claudiaquimi": {
-			"nombre": "Sra. Claudia Quimi",
+			"nombre": "Sra. Claudia Quimí",
 			"admision": "1 persona"
 		},
 		"valeriatroya": {
-			"nombre": "Valeria Troya",
+			"nombre": "Srta. Valeria Troya",
 			"admision": "1 persona"
 		},
 		"kennytroya": {
-			"nombre": "Sr. Kenny Troya y sra. Gabriela Hernandez",
+			"nombre": "Sr. Kenny Troya y sra. Gabriela Hernández",
 			"admision": "3 personas"
 		},
 		"sebastiangomez": {
-			"nombre": "Sebastian Gomez y madre",
+			"nombre": "Sr. Sebastian Gómez y Sra. Thaly Pardo",
 			"admision": "2 personas"
 		},
 		"neypinargote": {
-			"nombre": "Sr. Ney Pinargote y esposa",
+			"nombre": "Sr. Ney Pinargote y Sra. Alexandra Figueroa",
 			"admision": "2 personas"
 		},
 		"andrespinargote": {
-			"nombre": "Andres Pinargote",
+			"nombre": "Sr. Andrés Pinargote",
 			"admision": "1 persona"
 		},
 		"karlapardo": {
@@ -77,11 +81,11 @@
 			"admision": "5 personas"
 		},
 		"ricardocevallos": {
-			"nombre": "Ricardo Cevallos",
+			"nombre": "Sr. Ricardo Cevallos",
 			"admision": "1 persona"
 		},
 		"jesusmora": {
-			"nombre": "Jesus Mora",
+			"nombre": "Sr. Jesus Mora",
 			"admision": "1 persona"
 		},
 		"xavierfigueroa": {
@@ -129,15 +133,23 @@
 			"admision": "2 personas"
 		},
 		"andreacarrascal": {
-			"nombre": "Andrea Carrascal",
+			"nombre": "Srta. Andrea Carrascal",
 			"admision": "1 persona"
 		},
 		"yamicano": {
-			"nombre": "Yamilett Cano",
+			"nombre": "Srta. Yamilett Cano",
 			"admision": "1 persona"
 		},
 		"steffanyvallejo": {
-			"nombre": "Steffany Vallejo",
+			"nombre": "Srta. Steffany Vallejo",
+			"admision": "2 personas"
+		},
+		"emmasantos": {
+			"nombre": "Sra. Emma Santos",
+			"admision": "1 persona"
+		},
+		"vivianamendoza": {
+			"nombre": "Sra. Viviana Mendoza y esposo",
 			"admision": "2 personas"
 		}
 	}
